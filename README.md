@@ -25,7 +25,7 @@ This project includes a full SQL dump file that contains all the database tables
 - My SQL 8.0 or later
 - a local MySQL server or an online environment
 ### Steps
-1. clone the repo ( or download the dump file) <br>''' bash<br>git clone {add github link}
+1. clone the repo ( or download the dump file) <br>''' bash<br>git clone https://github.com/smcnary2/Animal-shelter-database.git
 2. Open MySQL
 3. Create a new database<br>CREATE DATABASE Furever_Animal_Shelter;<br>USE Furever_Animal_Shelter;
 4. Import the SQL dump file<br>mysql -u your_username -p Furever_Animal_Shelter < Furever_Animal_Shelter_dump.sql
